@@ -1,5 +1,6 @@
 name: Bug report
 description: Something is broken
+type: bug
 body:
   - type: textarea
     id: summary
