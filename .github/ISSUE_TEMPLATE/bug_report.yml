@@ -19,18 +19,4 @@ body:
     attributes:
       label: Expected vs. actual behavior
     validations:
-      required: true
-  - type: dropdown
-    id: area
-    attributes:
-      label: Area
-      options:
-        - MedicueCore
-        - MedicuePro
-        - MedicueApp
-        - MedicueOmMeg
-        - MedicueApiExternal
-        - MedicueApiPublic
-        - MedicueService
-        - Tools
-        - Cross-cut
+      required: false

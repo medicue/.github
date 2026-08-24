@@ -15,18 +15,3 @@ body:
       label: Suggested test cases
     validations:
       required: false
-  - type: dropdown
-    id: area
-    attributes:
-      label: Area
-      options:
-        - MedicueCore
-        - MedicuePro
-        - MedicueApp
-        - MedicueOmMeg
-        - MedicueApiExternal
-        - MedicueApiPublic
-        - MedicueService
-        - Tools
-    validations:
-      required: false
