@@ -1,0 +1,30 @@
+name: Test coverage
+description: Add new automated test coverage
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: What needs coverage
+    validations:
+      required: true
+  - type: textarea
+    id: cases
+    attributes:
+      label: Suggested test cases
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - MedicueCore
+        - MedicuePro
+        - MedicueApp
+        - MedicueOmMeg
+        - MedicueApiExternal
+        - MedicueApiPublic
+        - MedicueService
+        - Tools
+    validations:
+      required: false
