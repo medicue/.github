@@ -1,5 +1,6 @@
 name: QA pass
 description: Run a manual test pass
+type: test
 body:
   - type: textarea
     id: scope
