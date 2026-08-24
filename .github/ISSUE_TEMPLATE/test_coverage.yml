@@ -1,5 +1,6 @@
 name: Test coverage
 description: Add new automated test coverage
+type: test
 body:
   - type: textarea
     id: scope
