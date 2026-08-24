@@ -1,0 +1,11 @@
+name: Task
+description: Refactor, chore, migration, or other non-defect work
+type: task
+projects: [medicue/2]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What needs doing
+    validations:
+      required: true
