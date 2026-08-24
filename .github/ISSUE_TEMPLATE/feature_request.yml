@@ -1,0 +1,15 @@
+name: Feature request
+description: Propose new capability
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach
+    validations:
+      required: false
