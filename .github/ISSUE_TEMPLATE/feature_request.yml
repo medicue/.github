@@ -1,6 +1,7 @@
 name: Feature request
 description: Propose new capability
 type: feature
+projects: [medicue/2]
 body:
   - type: textarea
     id: problem
