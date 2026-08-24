@@ -1,6 +1,7 @@
 name: Test coverage
 description: Add new automated test coverage
 type: test
+projects: [medicue/2]
 body:
   - type: textarea
     id: scope
