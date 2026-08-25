@@ -18,6 +18,6 @@ body:
     id: expected
     attributes:
       label: Expected vs. actual behavior
-      value: "- **Expected:** \n- **Actual** "
+      value: "- **Expected:** \n- **Actual:** "
     validations:
       required: false
